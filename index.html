@@ -3,18 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Selectors in CSS</title>
+    <title>Box model in CSS</title>
   </head>
   <body>
-    <h1 class="title bold">Class Selector</h1>
-
-    <h1 id="subtitle">Id selector</h1>
-
-    <p>Tag Selector</p>
-
-    <div>
-      <p>Inner p tag</p>
+    <div class="wrapper content-box">
+        <h1>Content Box</h1>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
     </div>
-    <span title="helper">Attribute selector</span>
+    <div class="wrapper border-box">
+        <h1>Border Box</h1>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
   </body>
 </html>

@@ -1,42 +1,20 @@
-/* class selectors css properties */
-.title {
-  font-size: 20px;
+.wrapper {
+  padding: 15px;
 }
-.colored {
-  color: blue;
-}
-.bold {
-  font-weight: bold;
-}
-
-/* id selectors css properties */
-#subtitle {
+.box {
+  margin: 0 10px;
+  padding: 20px;
   font-size: 15px;
+  font-weight: 500;
+  background: white;
+  border: 3px solid red;
+  outline: 3px solid blue;
 }
-
-/* tag selectors css properties */
-p {
-  font-size: 10px;
-}
-/* attribute selectors css properties */
-span[title="helper"] {
+.border-box {
+  box-sizing: border-box;
   background: green;
 }
-
-/* selectors combination css properties */
-/* descendant selector */
-body p {
-  background: red;
-}
-/* child selector */
-body > p {
+.content-box {
+  box-sizing: content-box;
   background: yellow;
-}
-/* adjacent selector */
-body + p {
-    background:violet;
-}
-/* sibling selector */
-body ~ p {
-    background: lightgreen;
 }
