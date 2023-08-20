@@ -25,6 +25,8 @@ body {
 }
 
 button{
+  width:50px;
+  height:30px;
   padding:10px;
   margin:0 10px;
   outline: solid 1px red;

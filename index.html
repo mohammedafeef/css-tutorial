@@ -4,25 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>Box model in CSS</title>
+    <title>Box sizing</title>
   </head>
   <body>
-    <div>
-      <h1>Example</h1>
-      <button>Button 1</button>
-      <button>Button 2</button>
-    </div>
     <div class="wrapper">
       <h1>Content Box</h1>
       <div class="box content-box">1</div>
-      <div class="box content-box">2</div>
-      <div class="box content-box">3</div>
     </div>
     <div class="wrapper">
       <h1>Border Box</h1>
       <div class="box border-box">1</div>
-      <div class="box border-box">2</div>
-      <div class="box border-box">3</div>
+    </div>
+    <div>
+      <h1>Example</h1>
+      <button class="border-box">Button 1</button>
+      <button class="content-box">Button 2</button>
     </div>
   </body>
 </html>
