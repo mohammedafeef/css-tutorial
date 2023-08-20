@@ -1,34 +1,4 @@
 body {
-  background:white;
-}
-.wrapper {
-  padding: 15px;
-}
-.box {
-  width: 100px;
-  height: 100px;
-  margin: 20px;
-  padding: 20px;
-  font-size: 15px;
-  font-weight: 500;
   background: white;
-  border: 3px solid red;
-  outline: 3px solid blue;
+  padding: 50px 10px;
 }
-.border-box {
-  box-sizing: border-box;
-  background: green;
-}
-.content-box {
-  box-sizing: content-box;
-  background: yellow;
-}
-
-button{
-  width:50px;
-  height:30px;
-  padding:10px;
-  margin:0 10px;
-  outline: solid 1px red;
-}
-
