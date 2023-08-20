@@ -1,8 +1,13 @@
+body {
+  background:white;
+}
 .wrapper {
   padding: 15px;
 }
 .box {
-  margin: 0 10px;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
   padding: 20px;
   font-size: 15px;
   font-weight: 500;
@@ -18,3 +23,10 @@
   box-sizing: content-box;
   background: yellow;
 }
+
+button{
+  padding:10px;
+  margin:0 10px;
+  outline: solid 1px red;
+}
+
