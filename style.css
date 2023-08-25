@@ -2,18 +2,24 @@
 
 * {
   font-family: "Poppins", sans-serif;
-  color: #352F44;
+  color: #352f44;
 }
 
 body {
-  background: #337CCF;
+  background: #5B9A8B;
   padding: 10px;
 }
 
 .container {
-  display: inline;
+  display: flex;
+  gap: 10px;
+  flex: 1;
+  background: #1450a3;
+  padding: 10px;
 }
 
 .item {
   font-size: 20px;
+  padding: 20px;
+  background: #ffc436;
 }
