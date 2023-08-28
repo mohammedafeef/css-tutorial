@@ -6,16 +6,21 @@
 }
 
 body {
-  background: #5B9A8B;
+  background: #5b9a8b;
   padding: 10px;
 }
 
 .container {
-  display: flex;
+  display: grid;
+  grid-template:
+    "main main ."
+    "main main .";
   gap: 10px;
-  flex: 1;
   background: #1450a3;
   padding: 10px;
+}
+.main-area {
+  grid-area: main;
 }
 
 .item {
