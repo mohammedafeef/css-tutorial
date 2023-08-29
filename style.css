@@ -19,32 +19,22 @@ body {
   background: #1450a3;
   padding: 10px;
 }
-.main-area {
-  grid-area: main;
+
+.container::selection {
+  background: white;
 }
 
-.item {
-  font-size: 20px;
-  padding: 20px;
-  background: #ffc436;
-}
-
-.container button {
-  padding: 10px;
-  background: #5b9a8b;
-  color: white;
-}
-
-button:hover {
+.container::before {
+  content: " ";
+  width: 5px;
+  height: 100%;
   background: black;
 }
 
-input:focus {
-  outline: none;
-  background: #5b9a8b;
-}
-
-.container:hover {
-  background: yellow;
+.container::after {
+  content: " ";
+  width:100%;
+  height:3px;
+  background:black;
 }
 
