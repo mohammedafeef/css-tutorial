@@ -28,3 +28,23 @@ body {
   padding: 20px;
   background: #ffc436;
 }
+
+.container button {
+  padding: 10px;
+  background: #5b9a8b;
+  color: white;
+}
+
+button:hover {
+  background: black;
+}
+
+input:focus {
+  outline: none;
+  background: #5b9a8b;
+}
+
+.container:hover {
+  background: yellow;
+}
+
