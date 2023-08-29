@@ -15,10 +15,31 @@ body {
   display: flex;
   background: #1450a3;
   padding: 10px;
+  position: relative;
+  z-index:1;
 }
 
 .item {
   background: aquamarine;
   padding: 20px;
   height: fit-content;
+  position: absolute;
+}
+.first {
+  left: 10px;
+  top: 10px;
+  z-index:3;
+}
+.second {
+  left: 20px;
+  top: 20px;
+  background: red;
+  z-index:2;
+}
+
+.third {
+  left: 30px;
+  top: 30px;
+  background: green;
+  z-index:1;
 }
