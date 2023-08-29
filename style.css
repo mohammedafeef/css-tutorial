@@ -15,23 +15,15 @@ body {
   display: flex;
   background: #1450a3;
   padding: 10px;
-  position: relative;
-  z-index:1;
 }
 
 .item {
   background: aquamarine;
   padding: 20px;
   height: fit-content;
-  position: absolute;
-}
-.first {
-  left: -10px;
-  top: -10px;
-}
-.second {
-  left: -20px;
-  top: -20px;
-  background: red;
+  border-width:2px;
+  border-style:solid;
+  border-color:black;
+  border-radius:50%;
 }
 
