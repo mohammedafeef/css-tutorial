@@ -21,9 +21,18 @@ body {
   background: aquamarine;
   padding: 20px;
   height: fit-content;
-  border-width:2px;
-  border-style:solid;
-  border-color:black;
-  border-radius:50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 50%;
+  transition: transform linear .2s;
+  /* transition-property: all;
+  transition-delay: 1s;
+  transition-timing-function: ease-in-out;
+  transition-duration: 2s; */
 }
 
+.item:hover {
+  transform: scale(1.01);
+  background: red;
+}
