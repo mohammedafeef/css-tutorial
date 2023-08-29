@@ -26,20 +26,12 @@ body {
   position: absolute;
 }
 .first {
-  left: 10px;
-  top: 10px;
-  z-index:3;
+  left: -10px;
+  top: -10px;
 }
 .second {
-  left: 20px;
-  top: 20px;
+  left: -20px;
+  top: -20px;
   background: red;
-  z-index:2;
 }
 
-.third {
-  left: 30px;
-  top: 30px;
-  background: green;
-  z-index:1;
-}
